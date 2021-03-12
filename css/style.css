@@ -84,13 +84,12 @@
 }
 
 .text {
-	position: absolute;
-	left: 270px;
+	position: relative;
+	left: 570px;
 	z-index: 10;
 }
 
 .text h2 {
-	top: 150px;
 	font-size: 5em;
 	font-weight: 800;
 	line-height: 1em;
@@ -108,7 +107,7 @@
 }
 
 .text a {
-	position: relative;
+	position: absolute;
 	left: 470px;
 	display: inline-block;
 	font-size: 1em;
@@ -128,7 +127,7 @@
 
 .social {
 	position: absolute;
-	left: 700px;
+	left: 1150px;
 	bottom: 20px;
 	z-index: 10;
 	display: flex;
