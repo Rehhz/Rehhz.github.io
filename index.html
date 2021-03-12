@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Landing Page</title>
+</head>
+<body>
+	<section class="showcase">
+		<header>
+			<h2 class="logo">Ace Training</h2>
+			<div class="toggle"></div>
+		</header>
+
+		<video src="video/explore.mp4" muted loop autoplay></video>
+
+		<div class="overlay"></div>
+
+		<div class="text">
+			<h2>Welcome to Ace Training</h2>
+			<p>We provide top-tier courses in helping you suceed in your future endeavours </p>
+			<p>If you have big aspirations in the world of Computing, check our courses out!</p>
+
+		<a href="#">Explore</a>
+		</div>
+
+		<ul class="social">
+			<li><a href="#"><img src="img/facebook.png" alt=""></li></a>
+			<li><a href="#"><img src="img/instagram.png" alt=""></li><a>
+			<li><a href="#"><img src="img/twitter.png" alt=""></li></a>
+		</ul>
+	</section>
+
+	<div class="menu">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Administrator Login</a></li>
+			<li><a href="#">Staff Login</a></li>
+			<li><a href="#">Student Login</a></li>
+			<li><a href="#">Contact Us</a></li>
+		</ul>
+	</div>
+
+	<script>
+		const menuToggle = document.querySelector('.toggle');
+      	const showcase = document.querySelector('.showcase');
+
+     	menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+	</script>
+
+</body>
+</html>
